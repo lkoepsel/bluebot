@@ -8,7 +8,7 @@ uv init
 uv venv 
 source .venv/bin/activate
 uv pip install pandas matplotlib
-uv chart_bb.py
+uv run chart_bb.py file.csv
 
 # once through with app
 deactivate
@@ -21,4 +21,4 @@ Use to chart BlueBot data from Pump. To download data:
 1. Specify specific bluebot data desired
 2. Specify date range
 3. Download
-4. 
+4. uv run chart file
